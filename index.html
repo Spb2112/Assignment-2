@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edmonton Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1><strong> Edmonton Highlights </strong> </h1>
+        <nav style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <a href="#home" style="text-decoration: none; color: white; margin: 0 10px;">Gallery</a>
+            <a href="#about" style="text-decoration: none; color: white; margin: 0 10px;">Information</a>
+            <a href="#" style="text-decoration: none; color: white; margin: 0 10px;">Service</a>
+            <a href="#contact-form" style="text-decoration: none; color: white; margin: 0 10px;">Contact</a>
+        </nav>
+    </header>
+
+    <div class="home" id="home">
+        <section id="section1" class="column"
+            style="background-image: url(NIGHTVIEW.avif); background-size: cover; height: 500px; width: 400px;">
+            <h2 style="color: aliceblue; font-size: 15px;">view 1</h2>
+            <p style="color: aliceblue; font-size: 30px;"><strong>Downtown</strong></p>
+        </section>
+
+        <section id="section2" class="column"
+            style="background-image: url(dayview.jpg); background-size: cover; height: 500px; width: 400px;">
+            <h2 style="color: rgb(242, 239, 239); font-size: 15px;"> view 2</h2>
+            <p style="color: rgb(13, 13, 14); font-size: 30px;"><strong></strong></p>
+        </section>
+
+        <section id="section3" class="column"
+            style="background-image: url(view.webp); background-size: cover; height: 500px; width: 400px; ">
+            <h2 style="color: aliceblue;font-size: 15px;">view 3</h2>
+            <p style="color: rgb(8, 4, 205); font-size: 30px; font-style: italic;"><strong></strong></p>
+        </section>
+
+        <section id="section4" class="column"
+            style="background-image: url(winter1.jpg); background-size: cover; height: 500px; width: 400px; ">
+            <h2 style="color: rgb(11, 11, 11);font-size: 15px;">view 4</h2>
+            <p style="color: rgb(8, 4, 205); font-size: 30px; font-style: italic;"><strong></strong></p>
+        </section>
+
+        <section id="section5" class="column"
+            style="background-image: url(sum3.jpg); background-size: cover; height: 500px; width: 400px; ">
+            <h2 style="color: rgb(16, 16, 16);font-size: 15px;">view 5</h2>
+            <p style="color: rgb(8, 4, 205); font-size: 30px; font-style: italic;"><strong></strong></p>
+        </section>
+
+        <section id="section6" class="column"
+            style="background-image: url(sum4.jpg); background-size: cover; height: 500px; width: 400px; ">
+            <h2 style="color: aliceblue;font-size: 15px;">view 6</h2>
+            <p style="color: rgb(8, 4, 205); font-size: 30px; font-style: italic;"><strong></strong></p>
+        </section>
+
+
+    </div>
+
+    <div class="about" id="about" style="border: 5px solid black; text-align: justify;">
+        <h3 style="font-size: 40px; color: aliceblue; text-align: center; background-color: rgb(38, 72, 134); margin-top: 0px;">
+            <strong>Information</strong></h3>
+        <p>
+            Edmonton, the vibrant capital city of Alberta, Canada, is situated along the North Saskatchewan River. Known
+            for
+            its rich cultural diversity, Edmonton stands as a thriving metropolis that seamlessly blends urban
+            sophistication with natural beauty. Boasting a skyline adorned with modern architecture, the city is a hub
+            for
+            arts, festivals, and recreational activities. Home to iconic landmarks like the West Edmonton Mall, one of
+            the
+            largest shopping and entertainment complexes globally, the city offers a unique fusion of commerce and
+            leisure.
+            Edmonton is also recognized for its commitment to preserving green spaces, with extensive parks and river
+            valleys providing residents and visitors alike with picturesque outdoor settings. As the gateway to the
+            Canadian
+            Rockies, Edmonton offers easy access to breathtaking natural wonders, making it an ideal destination for
+            both
+            city enthusiasts and nature lovers. The city's warm hospitality, diverse culinary scene, and dynamic
+            cultural
+            events contribute to its appeal as a welcoming and dynamic destination in the heart of Alberta.
+        </p>
+        <p>
+          <strong>  West Edmonton Mall: </strong>One of the largest shopping and entertainment complexes in the world, featuring a water
+            park, amusement park, ice rink, and a vast selection of shops and restaurants.
+<br>
+           <strong>Royal Alberta Museum:</strong>  Explore Alberta's natural and cultural history through engaging exhibits and
+            collections.
+<br>
+           <strong> Fort Edmonton Park:</strong>  Canada's largest living history museum, where you can experience the city's past through
+            various eras.
+<br>
+            <strong>Valley Zoo:</strong>  Home to a diverse range of animals in a naturalistic setting.
+<br>
+           <strong>Art Gallery of Alberta (AGA):</strong>  A striking architectural gem housing a collection of contemporary and
+            historical art.
+<br>
+         <strong> Muttart Conservatory:</strong>   Explore four glass pyramids showcasing plants from different climates and regions.
+<br>
+          <strong>Edmonton Symphony Orchestra:</strong>   Enjoy classical and contemporary music performances at the Francis Winspear
+            Centre for Music.
+<br>
+          <strong> Elk Island National Park:</strong>  A short drive from Edmonton, offering opportunities for wildlife viewing and
+            stargazing.
+<br>
+         <strong>High Level Bridge and Streetcar:</strong> Take a streetcar ride across the iconic High Level Bridge for panoramic
+            views of the city.
+<br>
+           <strong>Rogers Place:</strong>  A state-of-the-art arena hosting sports events, concerts, and entertainment shows.
+        </p>
+    </div>
+    <br>
+
+    <div class="contact-form" id="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name"><strong>NAME:</strong></label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"><strong>EMAIL:</strong></label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message"><strong>MESSAGE:</strong></label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+    <footer>
+        <div class="social-icons" style="gap: 10px;">
+            
+            <a href="https://www.instagram.com/your-instagram-link" target="_blank"><img src="Instagram_icon.png" alt="" style="height: 20px;  width: 20px;"></a>
+            <a href="https://www.facebook.com/your-facebook-link" target="_blank"> <img src="Facebook_Logo_2023.png" alt="" style="height: 20px; width: 20px;"> </a>
+            <a href="https://twitter.com/your-twitter-link" target="_blank"><img src="twitter.png" alt="" style="height: 20px; width: 20px;"></a>
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>
